@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./fathersday.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.6); /* 60% transparency for header */
+}
+
+h1 {
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.background-overlay {
+    background-color:  rgba(0, 0, 0, 0.6);/*/ /* 60% transparency for background overlay */
+    padding: 20px;
+}
+
+.poem-container {
+    background-color: rgba(255, 255, 255, 0.6);/* 90% transparency for poem container */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.poem {
+    padding: 20px;
+    text-align: left;
+}
+
+.poem p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6); /* 60% transparency for footer */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-style: italic;
+}
